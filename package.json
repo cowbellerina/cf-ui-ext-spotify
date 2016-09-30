@@ -1,6 +1,6 @@
 {
   "name": "cf-ui-ext-spotify",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Spotify search as Contentful UI Extension",
   "main": "src/index.js",
   "scripts": {

@@ -1,7 +1,7 @@
 Changelog
 =========
 
-### 0.1.0 (September 30, 2016)
+### 1.0.0 (September 30, 2016)
 
 * Initial release
 * Auto-complete Spotify (track) search
