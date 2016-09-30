@@ -60,11 +60,11 @@ Update task will upload the extension to your space on Contentful.
 
 ## How to add Spotify search field to content type
 
-1. Select any content type under the *Content Model* content type list. [See screenshot](./assets/instructions-step-1.png).
-2. Click *Add field* button. [See screenshot](./assets/instructions-step-2.png).
-3. Select *JSON Object* as the field type. [See screenshot](./assets/instructions-step-3.png).
-4. Fill in *Name* and *Field ID* and click *Create and configure*. [See screenshot](./assets/instructions-step-4.png).
-5. Select *Appearance* tab. [See screenshot](./assets/instructions-step-5-7.png).
+1. Select any content type under the *Content Model* content type list. [See screenshot](https://raw.githubusercontent.com/tuunanen/cf-ui-ext-spotify/master/assets/instructions-step-1.png).
+2. Click *Add field* button. [See screenshot](https://raw.githubusercontent.com/tuunanen/cf-ui-ext-spotify/master/assets/instructions-step-2.png).
+3. Select *JSON Object* as the field type. [See screenshot](https://raw.githubusercontent.com/tuunanen/cf-ui-ext-spotify/master/assets/instructions-step-3.png).
+4. Fill in *Name* and *Field ID* and click *Create and configure*. [See screenshot](https://raw.githubusercontent.com/tuunanen/cf-ui-ext-spotify/master/assets/instructions-step-4.png).
+5. Select *Appearance* tab. [See screenshot](https://raw.githubusercontent.com/tuunanen/cf-ui-ext-spotify/master/assets/instructions-step-5-7.png).
 6. Select *Spotify search*
 7. Hit *Save*
 
