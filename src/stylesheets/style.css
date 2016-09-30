@@ -1,0 +1,70 @@
+/*
+ * Typeahead styles
+ * ----------------
+ */
+
+/*
+ * Structure
+ * ---------
+ */
+
+.twitter-typeahead {
+    width: 100%;
+    position: static !important;
+}
+
+.tt-menu {
+    right: 0; /* Make container span all the way */
+    position: static !important;
+}
+
+.tt-dataset:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.tt-dataset > .tt-suggestion {
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.tt-header,
+.tt-no-result {
+    padding: 15px 15px;
+}
+
+/*
+ * Skin & state
+ * ------------
+ */
+
+.tt-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px #e5ebed;
+}
+
+/* Hover / selected state */
+.tt-suggestion:hover,
+.tt-cursor {
+    background-color: #f7f9fa;
+    cursor: pointer;
+}
+
+.tt-header__title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.tt-suggestion__title,
+.tt-no-result__title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tt-suggestion__description,
+.tt-no-result__description {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+}

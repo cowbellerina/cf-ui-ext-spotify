@@ -1,0 +1,6 @@
+{
+  "id": "cf-ui-ext-spotify",
+  "name": "Spotify search",
+  "srcdoc": "./dist/index.html",
+  "fieldTypes": ["Object"]
+}

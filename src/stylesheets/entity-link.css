@@ -1,0 +1,58 @@
+/**
+ * Entity link
+ */
+.entity-link {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #d3dce0;
+    border-radius: 1px;
+    box-shadow: 0 2px 2px #e5ebed;
+    display: flex;
+    font-size: 14px;
+    padding: 0.85em;
+    position: relative;
+}
+
+.entity-link .entity-status {
+    margin-top: 2px;
+    margin-right: 0.5em;
+}
+
+.entity-link .entity-status .status-bar {
+    width: 13px;
+    height: 13px;
+    margin-top: 1px;
+    border-radius: 50%;
+}
+
+.entity-link .entity-link__actions {
+    margin-left: 0.8em;
+}
+
+.entity-link__image {
+    flex: 0 0 64px;
+    height: 64px;
+    margin-right: 1em;
+    width: 64px;
+}
+
+.entity-link__text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.entity-link__title {
+    color: inherit !important;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.entity-link__description {
+    margin-top: 10px;
+    color: #8091a5;
+}
+
+.entity-link__delete {
+    cursor: pointer;
+}

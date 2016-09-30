@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--
+    Include styles from the Contentful app.
+
+    See http://contentful.github.io/ui-extensions-sdk/styleguide for information on
+    how to include and apply these styles.
+     -->
+    <link href="https://contentful.github.io/ui-extensions-sdk/cf-extension.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/0.11.1/bloodhound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+</head>
+<body>
+
+<form id="js-search-container" class="twitter-typeahead">
+    <div class="cf-form-field">
+        <input type="text"
+               placeholder="Here Comes the Sun"
+               class="js-typeahead cf-form-input"/>
+    </div>
+    <div class="js-typeahead-value"></div>
+</form>
+
+<% for (var jsFile of htmlWebpackPlugin.files.js) { %>
+    <script>
+        <%= compilation.assets[jsFile.substr(htmlWebpackPlugin.files.publicPath.length)].source() %>
+    </script>
+<% } %>
+
+</body>
+</html>
