@@ -21,6 +21,7 @@
     "spotify"
   ],
   "devDependencies": {
+    "babel-core": "^6.16.0",
     "concurrently": "^2.2.0",
     "contentful-extension-cli": "^2.0.0",
     "css-loader": "^0.25.0",
